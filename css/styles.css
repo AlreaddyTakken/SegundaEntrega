@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --negro:#202124;
+    --fuente: Encode Sans Semi Condensed;
+}
+
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.banner{
+    display: flex;
+    padding: .75rem;
+    justify-content: space-between;
+}
+
+.banner h1{
+    font-family: var(--fuente);
+}
+
+.navegacion{
+    display: flex;
+    list-style: none;
+}
+
+.navegacion li a{
+    color: var(--negro);
+    text-decoration: none;
+    margin: .75rem;
+    font-size: 1.5rem;
+    font-family: Encode Sans Semi Condensed;
+}
