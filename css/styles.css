@@ -17,6 +17,7 @@ body{
     display: flex;
     padding: .75rem;
     justify-content: space-between;
+    text-transform: capitalize;
 }
 
 .banner h1{
